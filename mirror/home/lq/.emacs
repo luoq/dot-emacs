@@ -4,3 +4,5 @@
   (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
   (package-initialize))
 
+(require 'evil)
+(evil-mode 1)
